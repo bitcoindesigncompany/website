@@ -28,7 +28,7 @@ body {
 h1 {
     color: #FBF6ED;
     text-align: left;
-    font-size: clamp(40px, 10vw, 128px);
+    font-size: clamp(48px, 10vw, 128px);
     line-height: 1em;
     font-family: Tobias-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
@@ -72,6 +72,15 @@ a:visited {
     margin-right: 16px;
     margin-left: 16px;
 }
+
+::selection {
+    color: #151515;
+    background: #FBF6ED; /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+    color: #151515;
+    background: #FBF6ED; /* Gecko Browsers */
+  }
 
 @media screen and (max-width: 768px) {
 
