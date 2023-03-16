@@ -11,13 +11,13 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #121212;
     margin-left: 16px;
     margin-right: 16px;
 }
 
 h1 {
-    color: #ffffff;
+    color: #EBE6DE;
     text-align: left;
     font-size: clamp(48px, 10vw, 128px);
     line-height: 1em;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    color: #ffffff;
+    color: #EBE6DE;
     text-align: left;
     font-size: 12px;
     line-height: 0px;
