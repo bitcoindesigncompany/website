@@ -75,12 +75,13 @@ a:visited {
 
 ::selection {
     color: #151515;
-    background: #FBF6ED; /* WebKit/Blink Browsers */
-  }
+    background: #FBF6ED;
+}
+
 ::-moz-selection {
     color: #151515;
-    background: #FBF6ED; /* Gecko Browsers */
-  }
+    background: #FBF6ED;
+}
 
 @media screen and (max-width: 768px) {
 
