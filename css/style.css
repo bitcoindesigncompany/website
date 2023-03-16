@@ -1,7 +1,7 @@
 /* base */
 
 @font-face {
-    font-family: TobiasTRIAL-Light;
+    font-family: Tobias-Light;
     src: url("../fonts/TobiasTRIAL-Light.otf");
 }
 
@@ -10,31 +10,58 @@
     src: url("../fonts/HelveticaMonospacedW1G-Rg.otf");
 }
 
+@font-face {
+    font-family: Tobias-LightItalic;
+    src: url("../fonts/TobiasTRIAL-LightItalic.otf");
+}
+
 body {
-    background-color: #121212;
+    background-color: #151515;
     margin-left: 16px;
     margin-right: 16px;
 }
 
+.emphasized { 
+    font-family: Tobias-LightItalic;
+}
+
 h1 {
-    color: #EBE6DE;
+    color: #FBF6ED;
     text-align: left;
     font-size: clamp(48px, 10vw, 128px);
     line-height: 1em;
-    font-family: TobiasTRIAL-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Tobias-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin: 0px;
     letter-spacing: -.015em;
 }
 
 h2 {
-    color: #EBE6DE;
+    color: #FBF6ED;
     text-align: left;
     font-size: 12px;
     line-height: 0px;
     text-transform: uppercase;
     font-family: "HelveticaMonospacedW1G-Rg", Helvetica, Arial, sans-serif;
     font-weight: normal;
+}
+
+a:link {
+    color: #FBF6ED;
+    opacity: 64%;
+    text-decoration: none; 
+}  
+
+a:hover {
+    color: #FBF6ED;
+    opacity: 100%;
+    text-decoration: none; 
+}
+
+a:visited { 
+    color: #FBF6ED;
+    opacity: 64%;
+    text-decoration: none; 
 }
 
 .grid {
