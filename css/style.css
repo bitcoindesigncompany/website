@@ -115,7 +115,7 @@ sup {
 
 .symbol {
     height: clamp(34px, 7.1vw, 91px);
-    width: fit-content;
+    aspect-ratio: 1 / 1;
     display: inline-block;
 }
 
